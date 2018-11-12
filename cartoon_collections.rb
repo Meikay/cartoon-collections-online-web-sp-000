@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)# code an argument here
+  dwarves.to_i
   dwarves.each_with_index { |person, index| dwarves[person] = index }
    puts dwarves
 end
