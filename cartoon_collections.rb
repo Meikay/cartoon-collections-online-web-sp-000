@@ -5,12 +5,12 @@ def roll_call_dwarves(dwarves)# code an argument here
  end
 end
 
-#make first letter uppercase 
+#make first letter uppercase
 #add exclamation point at end of each element
 #use .map
 
 def summon_captain_planet(veggies)
-  veggies.upcase
+  veggies.uppercase
 end
 
 def long_planeteer_calls# code an argument here
