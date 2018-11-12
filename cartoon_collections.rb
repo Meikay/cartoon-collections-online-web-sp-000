@@ -1,4 +1,4 @@
-require.pry
+require 'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each_with_index do |person, index|
     i = index + 1
@@ -24,7 +24,9 @@ def long_planeteer_calls(calls_long)
   end
 end
 
-def find_the_cheese
+def find_the_cheese(cheese_types)
   # the array below is here to help
     cheese_types = ["cheddar", "gouda", "camembert"]
+    cheese_types.include?("cheddar")
+    
 end
